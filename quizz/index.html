@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>TRIVIA <span>MUSICAL</span> </h1>
+    <h2>DEMUESTRA LO QUE SABES DE MUSICA!!!</h2>
+    <img src="audio (1).png" alt="logo2" width="300" />
+    <form>
+        <section id="p1">
+        <h3>1. ¿Quién es conocido como el "Rey del Pop"?</h3>
+        <input name="p1" type="radio" value="a" onclick="respuesta(1,this)"> Michael Jackson 
+        <input name="p1" type="radio" value="b"onclick="respuesta(1,this)"> Elvis Presley 
+        <input name="p1" type="radio" value="c"onclick="respuesta(1,this)"> Prince 
+    </section>
+        <br>
+        <section id="p2">
+        <h3>2. ¿Quien es el principal cantante de QUEEN"?</h3>
+        <input name="p2" type="radio" value="a"onclick="respuesta(1,this)"> Freddy Mercury 
+        <input name="p2" type="radio" value="b"onclick="respuesta(1,this)"> Elvis Presley 
+        <input name="p2" type="radio" value="c"onclick="respuesta(1,this)"> Brian MAY 
+        </section> 
+        <br>
+        <section id="p3">
+        <h3>3. ¿Cancion mas famosa de QUEEN?</h3>
+                <input name="p3" type="radio" value="a"onclick="respuesta(1,this)"> We will rock you 
+        <input name="p3" type="radio" value="b"onclick="respuesta(1,this)"> Bohemian Rhapsody 
+        <input name="p3" type="radio" value="c"onclick="respuesta(1,this)"> I want to break free 
+        </section>
+        <br>
+       
+        <button type="button" id="myButon"   onclick="checkAnswer()">Verificar respuesta</button>
+        <br>
+      
+    </form>
+    <script>
+        function checkAnswer() {
+            alert('Las respuestas son:1. Michael Jackson,2. Freddy Mercury y 3.Bohemian Rhapsody ');
+        }
+    </script>
+
+
+</script>
+</body>
+</html>

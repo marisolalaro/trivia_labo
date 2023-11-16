@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #312938;
+    text-align: center; 
+}
+h1{
+    color: #33a9ac;
+  
+    font-size: 70px;
+    
+
+}
+span{
+    color: #982062;
+
+}
+h4{
+    text-align: center; 
+    color: #cfc89a;
+}
+h2{
+    text-align: center; 
+    color: #cfc89a;
+}
+#p1{
+    color: #33a9ac;
+}
+#p2{
+    color: #982062;
+}
+#p3{
+    color: #33a9ac;s
+}
